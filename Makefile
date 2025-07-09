@@ -5,7 +5,7 @@ all: build
 build:
 	cargo build -r
 
-clean: build
+clean: build install
 	rm -rf target
 
 install: build
